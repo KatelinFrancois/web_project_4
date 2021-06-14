@@ -1,4 +1,12 @@
 .header{
     max-width: 880px;
-    margin: 45px auto 40 auto;
+    margin: 45px auto 40px auto;
+    border-bottom: 1px #545454 solid;
+}
+
+@media only screen and (max-width: 400px){
+    .header{
+        max-width: 320px;
+        margin: 28px auto 42px auto;
+    }
 }
