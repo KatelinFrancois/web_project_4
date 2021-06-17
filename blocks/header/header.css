@@ -1,12 +1,12 @@
-.header{
-    max-width: 880px;
-    margin: 45px auto 40px auto;
-    border-bottom: 1px #545454 solid;
+.header {
+  max-width: 880px;
+  margin: 45px auto 0 auto;
 }
 
-@media only screen and (max-width: 400px){
-    .header{
-        max-width: 320px;
-        margin: 28px auto 42px auto;
-    }
+@media only screen and (max-width: 400px) {
+  .header {
+    max-width: 320px;
+    margin-top: 28px;
+    margin-bottom: 42px;
+  }
 }
