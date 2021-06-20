@@ -10,7 +10,7 @@ editBtn.addEventListener("click", function (event) {
   nameInput.value = profileName.textContent;
   titleInput.value = profileTitle.textContent;
   overlay.classList.add("overlay_show");
-  modal.classList.add("modal__show");
+  modal.classList.add("modal_show");
 });
 
 closeBtn.addEventListener("click", closeModal);
@@ -22,6 +22,6 @@ saveBtn.addEventListener("click", function () {
 });
 
 function closeModal() {
-  overlay.classList.remove("overlay__show");
-  modal.classList.remove("modal__show");
+  overlay.classList.remove("overlay_show");
+  modal.classList.remove("modal_show");
 }

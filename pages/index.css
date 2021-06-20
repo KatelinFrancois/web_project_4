@@ -22,7 +22,7 @@
 @import url(../blocks/modal/form-control/modal__form-control.css);
 @import url(../blocks/modal/__form-control-label/modal__form-control-label.css);
 @import url(../blocks/modal/__form-contol-input/modal__form-control-input.css);
-@import url(../blocks/modal/__show/modal__show.css);
+@import url(../blocks/modal/_show/modal_show.css);
 @import url(../blocks/modal/__hidden/modal__hidden.css);
 @import url(../blocks/button/button.css);
 @import url(../blocks/elements/elements.css);
