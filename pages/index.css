@@ -32,8 +32,6 @@
 @import url(../blocks/modal/__form-contol-input/modal__form-control-input.css);
 @import url(../blocks/modal/__show/modal__show.css);
 @import url(../blocks/modal/__hidden/modal__hidden.css);
-
-/*form save button*/
 @import url(../blocks/button/button.css);
 
 /*elements*/             
