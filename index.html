@@ -43,23 +43,21 @@
             <h2 class="modal__text">Edit Profile</h2>
             <form name="profile">
               <div class="modal__form-control">
-                <label class="modal__form-control-label" for="name"
-                  >name:</label
-                >
                 <input
                   class="modal__form-control-input"
                   id="name"
                   type="text"
                   name="name"
+                  aria-label="Name"
                 />
               </div>
               <div class="modal__form-control">
-                <label class="modal__form-control" for="title">Bio</label>
                 <input
                   class="modal__form-control-input"
                   id="title"
                   type="text"
                   name="title"
+                  aria-label="Bio"
                 />
               </div>
               <div class="button" id="saveBtn">Save</div>
@@ -70,7 +68,11 @@
 
       <div class="elements">
         <div class="element">
-          <img src="./images/Yosemite Valley.jpg" class="element__image" alt="Yosemite Valley" />
+          <img
+            src="./images/Yosemite Valley.jpg"
+            class="element__image"
+            alt="Yosemite Valley"
+          />
           <div class="element__group">
             <h2 class="element__title">Yosemite Valley</h2>
             <button class="element__like-button"></button>
