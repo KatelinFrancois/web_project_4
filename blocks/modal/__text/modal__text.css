@@ -1,0 +1,15 @@
+.modal__text {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: #000000;
+  margin: 34px 64px 54px 36px;
+  width: 330px;
+}
+
+@media only screen and (max-width: 320px) {
+  .modal__text {
+    max-width: 238px;
+  }
+}

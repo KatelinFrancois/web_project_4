@@ -1,0 +1,25 @@
+.modal__close-button {
+  width: 40px;
+  height: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-right: -2rem;
+  margin-top: -2rem;
+  background-color: transparent;
+}
+
+.modal__close-button:hover {
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 320px) {
+  .modal__close-button {
+    width: 26px;
+    height: 26px;
+    margin-right: 0rem;
+    margin-top: -2.5rem;
+  }
+}

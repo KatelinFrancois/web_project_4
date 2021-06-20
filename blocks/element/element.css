@@ -1,8 +1,7 @@
-.element{
-      border-radius: 10px;
-      background-color: #FFFFFF;
-      overflow: hidden;
-      position: relative;
-      
-
+.element {
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  position: relative;
 }

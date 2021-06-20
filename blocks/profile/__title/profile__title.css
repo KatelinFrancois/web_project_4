@@ -1,0 +1,25 @@
+.profile__title {
+  max-width: 415px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin: 0;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 770px) {
+  .profile__text {
+    margin: 0;
+    margin-top: 17px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile__text {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 auto;
+  }
+}

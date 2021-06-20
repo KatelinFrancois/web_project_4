@@ -5,6 +5,21 @@
   font-style: normal;
   font-size: 42px;
   line-height: 48px;
-  margin: 62px 18px 0 30px;
-  position: relative;
+  margin: 0;
+  margin-top: 62px;
+}
+
+@media only screen and (max-width: 770px) {
+  .profile__name {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .profile__name {
+    font-size: 22px;
+    line-height: 27px;
+    margin-right: 10px;
+    margin-bottom: 14px;
+  }
 }

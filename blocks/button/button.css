@@ -1,0 +1,15 @@
+.button {
+  max-width: 358px;
+  color: #ffffff;
+  background-color: #000000;
+  border-radius: 2px;
+  margin: 48px 36px 36.51px 36px;
+  text-align: center;
+  padding-top: 13.66px;
+  padding-bottom: 18.49px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
