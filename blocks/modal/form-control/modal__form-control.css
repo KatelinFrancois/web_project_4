@@ -2,3 +2,12 @@
   max-width: 358px;
   margin: 0 36px 29.74px 36px;
 }
+
+@media only screen and (max-width: 705px){
+  .modal__form-control{
+    max-width: 238px;
+    margin-right: 22px;
+    margin-bottom: 46px;
+    margin-left: 22px;
+  }
+}

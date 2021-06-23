@@ -8,8 +8,11 @@
   width: 330px;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 705px) {
   .modal__text {
     max-width: 238px;
+    font-size: 18px;
+    line-height: 21.78px;
+    margin: 25px 22px 76px 22px;
   }
 }

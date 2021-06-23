@@ -1,0 +1,13 @@
+.modal__contents{
+    max-width: 430px;
+    position: fixed;
+    border-radius: 10px;
+    margin-top: 195px;
+    background-color: rgba(255, 255, 255);
+}
+
+@media only screen and (max-width: 705px){
+    .modal__contents{
+        max-width: 282px;
+    }
+}

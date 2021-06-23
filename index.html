@@ -1,144 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Katelin Francois, Web Dev Student" />
-    <link rel="stylesheet" href="pages/index.css" />
-    <title>Project 4: Around The US</title>
-  </head>
-  <body class="page">
-    <header class="header">
-      <img class="logo" src="images/images.svg" alt="Around the US" />
-      <div class="header__line"></div>
-    </header>
-    <main>
-      <div class="profile">
-        <img
-          src="./images/Jacques.svg"
-          alt="profile picture"
-          class="profile__avatar"
-        />
-        <div class="profile__info">
-          <div class="profile__group">
-            <h1 class="profile__name">Jacques Cousteau</h1>
-            <button id="editBtn" class="profile__edit-button"></button>
-          </div>
-          <p class="profile__title">Explorer</p>
-        </div>
-        <button class="profile__add-button">
-          <img src="./images/+button.svg" alt="add button" />
-        </button>
-      </div>
 
-      <overlay class="overlay">
-        <section class="modal">
-          <div class="modal__contents">
-            <img
-              src="images/Close Icon.svg"
-              alt="Close"
-              class="modal__close-button"
-              id="closeBtn"
-            />
-            <h2 class="modal__text">Edit Profile</h2>
-            <form name="profile">
-              <div class="modal__form-control">
-                <input
-                  class="modal__form-control-input"
-                  id="name"
-                  type="text"
-                  name="name"
-                  aria-label="Name"
-                />
-              </div>
-              <div class="modal__form-control">
-                <input
-                  class="modal__form-control-input"
-                  id="title"
-                  type="text"
-                  name="title"
-                  aria-label="Bio"
-                />
-              </div>
-              <div class="button" id="saveBtn">Save</div>
-            </form>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Katelin Francois, Web Dev Student">
+  <link rel="stylesheet" href="pages/index.css">
+  <title>Project 4: Around The US</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <img class="logo" src="images/images.svg" alt="Around the US">
+    <div class="header__line"></div>
+  </header>
+  <main>
+    <div class="profile">
+      <img src="./images/Jacques.svg" alt="profile picture" class="profile__avatar">
+      <div class="profile__info">
+        <div class="profile__group">
+          <h1 class="profile__name">Jacques Cousteau</h1>
+          <button type="button" id="editBtn" class="profile__edit-button"></button>
+        </div>
+        <p class="profile__title">Explorer</p>
+      </div>
+      <button type="button" class="profile__add-button">
+        <img src="./images/+button.svg" alt="add button">
+      </button>
+    </div>
+
+    <div class="modal">
+      <div class="modal__overlay">
+        <section class="modal__contents">
+          <img src="images/CloseIcon.svg" alt="Close" class="modal__close-button" id="closeBtn">
+          <h2 class="modal__text">Edit Profile</h2>
+          <form name="profile" class="modal__form">
+            <div class="modal__form-control">
+              <input class="modal__form-control-input" id="name" type="text" name="name" aria-label="Name" />
+            </div>
+            <div class="modal__form-control">
+              <input class="modal__form-control-input" id="title" type="text" name="title" aria-label="Bio" />
+            </div>
+            <div class="button" id="saveBtn">Save</div>
+          </form>
         </section>
-      </overlay>
+      </div>
+    </div>
 
-      <div class="elements">
-        <div class="element">
-          <img
-            src="./images/Yosemite Valley.jpg"
-            class="element__image"
-            alt="Yosemite Valley"
-          />
-          <div class="element__group">
-            <h2 class="element__title">Yosemite Valley</h2>
-            <button class="element__like-button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img
-            src="images/Lake Louise.jpg"
-            class="element__image"
-            alt="Lake Louise"
-          />
-          <div class="element__group">
-            <h2 class="element__title">Lake Louise</h2>
-            <button class="element__like-button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img
-            src="./images/Bald Mountains.jpg"
-            class="element__image"
-            alt="Bald Moutains"
-          />
-          <div class="element__group">
-            <h2 class="element__title">Bald Mountains</h2>
-            <button class="element__like-button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img src="images/Latemar.jpg" class="element__image" alt="Latemar" />
-          <div class="element__group">
-            <h2 class="element__title">Latemar</h2>
-            <button class="element__like-button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img
-            src="./images/Vanoise National Park.jpg"
-            class="element__image"
-            alt="Vanoise Nationl park"
-          />
-          <div class="element__group">
-            <h2 class="element__title">Vanoise National Park</h2>
-            <button class="element__like-button"></button>
-          </div>
-        </div>
-
-        <div class="element">
-          <img
-            src="./images/Lago di braies.jpg"
-            class="element__image"
-            alt="Lago di braies"
-          />
-          <div class="element__group">
-            <h2 class="element__title">Lago di Braies</h2>
-            <button class="element__like-button"></button>
-          </div>
+    <div class="elements">
+      <div class="element">
+        <img src="./images/YosemiteValley.jpg" class="element__image" alt="Yosemite Valley">
+        <div class="element__group">
+          <h2 class="element__title">Yosemite Valley</h2>
+          <button type="button" class="element__like-button"></button>
         </div>
       </div>
-    </main>
-    <footer class="footer">
-      <p class="footer__copyright">&copy; 2021 Around The U.S.</p>
-    </footer>
-    <script src="scripts/index.js"></script>
-  </body>
+
+      <div class="element">
+        <img src="images/LakeLouise.jpg" class="element__image" alt="Lake Louise">
+        <div class="element__group">
+          <h2 class="element__title">Lake Louise</h2>
+          <button type="button" class="element__like-button"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/BaldMountains.jpg" class="element__image" alt="Bald Moutains">
+        <div class="element__group">
+          <h2 class="element__title">Bald Mountains</h2>
+          <button type="button" class="element__like-button"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="images/Latemar.jpg" class="element__image" alt="Latemar">
+        <div class="element__group">
+          <h2 class="element__title">Latemar</h2>
+          <button type="button" class="element__like-button"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/VanoiseNationalPark.jpg" class="element__image" alt="Vanoise Nationl park">
+        <div class="element__group">
+          <h2 class="element__title">Vanoise National Park</h2>
+          <button type="button" class="element__like-button"></button>
+        </div>
+      </div>
+
+      <div class="element">
+        <img src="./images/LagoDiBraies.jpg" class="element__image" alt="Lago di braies">
+        <div class="element__group">
+          <h2 class="element__title">Lago di Braies</h2>
+          <button type="button" class="element__like-button"></button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">&copy; 2021 Around The U.S.</p>
+  </footer>
+  <script src="scripts/index.js"></script>
+</body>
+
 </html>

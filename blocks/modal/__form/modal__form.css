@@ -1,0 +1,9 @@
+.modal__form{
+    max-width: 430px;
+}
+
+@media only screen and(max-width: 705px){
+    .modal__form{
+        max-width: 282px;
+    }
+}

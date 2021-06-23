@@ -13,3 +13,10 @@
 .button:hover {
   opacity: 0.8;
 }
+
+@media only screen and (max-width: 705px){
+  .button{
+    max-width: 238px;
+    margin: 46px 22px 25px 22px;
+  }
+}

@@ -7,3 +7,9 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 13px;
 }
+
+@media only screen and (max-width: 705px){
+  .modal__form-control-input{
+    max-width: 238px;
+  }
+}
